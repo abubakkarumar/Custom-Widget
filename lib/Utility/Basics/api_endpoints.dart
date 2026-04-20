@@ -1,0 +1,70 @@
+class ApiEndpoints {
+  ///Spot Trade API Paths
+  static const String TRADE_PAIRS = "trade/pairs";
+  static const String SPOT_ORDER_HISTORY = "order/history";
+  static const String LIMIT_BUY = "order/create";
+  static const String GET_TOTAL_BALANCE_CALCULATION = "trade/volume";
+  static const String SPOT_CANCEL_ORDER = "order/cancel";
+  static const String orderBook = "orderbook";
+  static const String SPOT_WEB_SOCKET_URL = "wss://stream-testnet.bybit.com/v5/public/spot";
+  static const String SPOT_DEPTH_CHART_URL = "https://new.demozab.com/zayro/userpanel/depthchart?pair=";
+  static const String FUTURE_DEPTH_CHART_URL = "https://new.demozab.com/zayro/userpanel/perpetualchart?pair=";
+  static const String SPOT_PRICE_CHART_URL = "https://new.demozab.com/zayro/userpanel/charts?pair=";
+  static const String FUTURE_WEB_SOCKET_URL = "wss://stream.bybit.com/v5/public/linear";
+
+
+  static const String login = 'login';
+  static const String emailVerificationStatus = 'email-verification-status';
+  static const String register = 'register';
+  static const String verifyEmail = 'email-verify-otp';
+  static const String resentVerifyEmail = 'resend-email-Verify';
+  static const String forgetPassword = 'forgot-password';
+  static const String resetPassword = 'update-password';
+  static const String resendOtp = 'resend-email-otp';
+  static const String updateProfile = 'update-profile';
+  static const String updateProfileImage = 'update-profile-image';
+  static const String getUserDetails = 'get-user-details';
+  static const String getGoogleSecretDetails = 'generate-google-secret';
+  static const String enableGoogleTwoFa = 'verify-google-secret';
+  static const String disableGoogleTwoFa = 'disable-google-2fa';
+  static const String getEmailCode = 'enable-email-2fa';
+  static const String getEmailCodeWhileDisable = 'disable-email-2fa-otp';
+  static const String enableEmailTwoFa = 'verify-enable-email-2fa';
+  static const String disableEmailTwoFa = 'disable-email-2fa';
+  static const String loginWithMPIN = 'login-mpin';
+  static const String forgotMPIN = 'mpin-forgot';
+  static const String updateForgotMPIN = 'mpin-reset';
+  static const String getChangePasswordOtp = 'request-change-password-otp';
+  static const String changePassword = 'change-password';
+  static const String getRecoveryKeyPhrase = 'recovery-key/generate-passphrase';
+  static const String enableRecoveryKeyPhrase = 'recovery-key/save-passphrase';
+  static const String deviceManagement = 'device-management';
+  static const String getAntiPhishingCodeOtp = 'anti-phishing/send-otp';
+  static const String enableAntiPhishingCode = 'anti-phishing/enable';
+  static const String updateAntiPhishingCode = 'anti-phishing/update';
+  static const String getDeleteOtp = 'user-delete-send-otp';
+  static const String doDeleteAccount = 'user-delete-verify-otp';
+  static const String freezeSendOtp = 'freeze/send-otp';
+  static const String freezeConfirm = 'freeze/confirm';
+  static const String createMPin = 'create-mpin';
+  static const String updateMPin = 'update-mpin';
+  static const String addTicket = 'add-ticket';
+  static const String sendMessage = 'send-message';
+  static const String enableBiometric = 'biometric/enable';
+  static const String disableBiometric = 'biometric/disable';
+  static const String loginWithBiometric = 'biometric/login-biometric';
+  static const String submitAffiliateDetails = 'submit-affiliate-details';
+  static const String referalDetails = 'referral-dashboard';
+  static const String referalHistory = 'referal-history';
+  static const String affiliateDetails = 'affiliate-details';
+  static const String getStakeProducts = 'stake_products_group';
+  static const String notificationsDetails = 'notifications';
+  static const String clearNotificationsDetails = 'mark-all-as-read';
+  static const String clearDetails = 'mark-as-read-by-id';
+  static const String notificationCount = 'notifications-count';
+
+  static const String saveStakeSubmit = 'save_stake';
+  static const String stakePreview = 'stake_preview';
+  static const String stakeHistory = 'stake_history';
+  static const String affiliateAgentDetails = 'agent-details';
+}
